@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f2f2;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-container img {
+    width: 120px;
+    height: 180px;
+    margin: 0 10px;
+}
+
+h1 {
+    font-family: 'Langar', monospace;
+    color: blue;
+    font-size: 35px;
+    margin: 0;
+    font-style: oblique;
+}
+
+.language-dropdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.language-dropdown select {
+    font-family: 'Langar', monospace;
+    padding: 5px;
+    color: #5D58B6;
+    font-size: 14px;
+    border: 1px solid #ac8181;
+    margin: 0 390px;
+}
+
+.translation-container {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.translation-container > label {
+    position: absolute;
+    bottom: 8px;
+    left: 100px;
+    background-color: white;
+}
+
+.translation-box1,
+.translation-box2 {
+    font-family: 'Langar', monospace;
+    font-size: 20px;
+    border: 1px solid #ac8181;
+    padding: 15px;
+    width: 450px;
+    height: 220px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+.translation-box1 {
+    border-top-right-radius: 20px;
+}
+
+.translation-box2 {
+    border-top-left-radius: 20px;
+}
+
+.translation-box1 p,
+.translation-box2 p {
+    margin: 0;
+}
+
+.active-model-button {
+    padding: 10px;
+    border-radius: 20px;
+    border: 0.5px;
+    background-color: rgb(75, 75, 252);
+    color: white;
+    cursor: pointer;
+}
+
+.active-model-button:active {
+    background-color: rgb(48, 48, 251);
+}
